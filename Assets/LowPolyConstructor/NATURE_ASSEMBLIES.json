@@ -1,0 +1,1469 @@
+{
+  "assemblies": [
+    {
+      "name": "Tree_Birch",
+      "parts": [
+        {
+          "model": "N17_Birch_Trunk",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N17_Birch_Trunk"
+        },
+        {
+          "model": "N18_Birch_Branch",
+          "position": [
+            0,
+            1.35,
+            0
+          ],
+          "rotation": [
+            0,
+            10,
+            0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ],
+          "parent": -1,
+          "name": "N18_Birch_Branch"
+        },
+        {
+          "model": "N10_Leaf_Cluster_Compact",
+          "position": [
+            0.72,
+            0.6,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "parent": 1,
+          "name": "N10_Leaf_Cluster_Compact"
+        },
+        {
+          "model": "N11_Leaf_Cluster_Tip",
+          "position": [
+            0.5,
+            0.88,
+            -0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.75,
+            0.8,
+            0.75
+          ],
+          "parent": 1,
+          "name": "N11_Leaf_Cluster_Tip"
+        },
+        {
+          "model": "N18_Birch_Branch",
+          "position": [
+            0,
+            1.8,
+            0
+          ],
+          "rotation": [
+            0,
+            150,
+            0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ],
+          "parent": -1,
+          "name": "N18_Birch_Branch"
+        },
+        {
+          "model": "N10_Leaf_Cluster_Compact",
+          "position": [
+            0.72,
+            0.6,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "parent": 4,
+          "name": "N10_Leaf_Cluster_Compact"
+        },
+        {
+          "model": "N11_Leaf_Cluster_Tip",
+          "position": [
+            0.5,
+            0.88,
+            -0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.75,
+            0.8,
+            0.75
+          ],
+          "parent": 4,
+          "name": "N11_Leaf_Cluster_Tip"
+        },
+        {
+          "model": "N18_Birch_Branch",
+          "position": [
+            0,
+            2.2,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ],
+          "parent": -1,
+          "name": "N18_Birch_Branch"
+        },
+        {
+          "model": "N10_Leaf_Cluster_Compact",
+          "position": [
+            0.72,
+            0.6,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "parent": 7,
+          "name": "N10_Leaf_Cluster_Compact"
+        },
+        {
+          "model": "N11_Leaf_Cluster_Tip",
+          "position": [
+            0.5,
+            0.88,
+            -0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.75,
+            0.8,
+            0.75
+          ],
+          "parent": 7,
+          "name": "N11_Leaf_Cluster_Tip"
+        },
+        {
+          "model": "N18_Birch_Branch",
+          "position": [
+            0,
+            2.6,
+            0
+          ],
+          "rotation": [
+            0,
+            75,
+            0
+          ],
+          "scale": [
+            0.85,
+            0.85,
+            0.85
+          ],
+          "parent": -1,
+          "name": "N18_Birch_Branch"
+        },
+        {
+          "model": "N10_Leaf_Cluster_Compact",
+          "position": [
+            0.72,
+            0.6,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "parent": 10,
+          "name": "N10_Leaf_Cluster_Compact"
+        },
+        {
+          "model": "N11_Leaf_Cluster_Tip",
+          "position": [
+            0.5,
+            0.88,
+            -0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.75,
+            0.8,
+            0.75
+          ],
+          "parent": 10,
+          "name": "N11_Leaf_Cluster_Tip"
+        },
+        {
+          "model": "N10_Leaf_Cluster_Compact",
+          "position": [
+            0.08,
+            2.95,
+            0.05
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.7,
+            1,
+            0.7
+          ],
+          "parent": -1,
+          "name": "N10_Leaf_Cluster_Compact"
+        }
+      ]
+    },
+    {
+      "name": "Tree_Willow",
+      "parts": [
+        {
+          "model": "N19_Willow_Trunk",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N19_Willow_Trunk"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            -0.05,
+            1.65,
+            0
+          ],
+          "rotation": [
+            0,
+            15,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N09_Leaf_Cluster_Wide",
+          "position": [
+            0.83,
+            0.48,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.64,
+            0.42,
+            0.62
+          ],
+          "parent": 1,
+          "name": "N09_Leaf_Cluster_Wide"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.55,
+            0.51,
+            0.12
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 1,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.08,
+            0.61,
+            -0.6
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.85,
+            0.9
+          ],
+          "parent": 1,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            -0.05,
+            1.71,
+            0
+          ],
+          "rotation": [
+            0,
+            115,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N09_Leaf_Cluster_Wide",
+          "position": [
+            0.83,
+            0.48,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.64,
+            0.42,
+            0.62
+          ],
+          "parent": 5,
+          "name": "N09_Leaf_Cluster_Wide"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.55,
+            0.51,
+            0.12
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 5,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.08,
+            0.61,
+            -0.6
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.85,
+            0.9
+          ],
+          "parent": 5,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            -0.05,
+            1.77,
+            0
+          ],
+          "rotation": [
+            0,
+            210,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N09_Leaf_Cluster_Wide",
+          "position": [
+            0.83,
+            0.48,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.64,
+            0.42,
+            0.62
+          ],
+          "parent": 9,
+          "name": "N09_Leaf_Cluster_Wide"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.55,
+            0.51,
+            0.12
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 9,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.08,
+            0.61,
+            -0.6
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.85,
+            0.9
+          ],
+          "parent": 9,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            -0.05,
+            1.8299999999999998,
+            0
+          ],
+          "rotation": [
+            0,
+            295,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N09_Leaf_Cluster_Wide",
+          "position": [
+            0.83,
+            0.48,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.64,
+            0.42,
+            0.62
+          ],
+          "parent": 13,
+          "name": "N09_Leaf_Cluster_Wide"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.55,
+            0.51,
+            0.12
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 13,
+          "name": "N21_Willow_Droop"
+        },
+        {
+          "model": "N21_Willow_Droop",
+          "position": [
+            1.08,
+            0.61,
+            -0.6
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.85,
+            0.9
+          ],
+          "parent": 13,
+          "name": "N21_Willow_Droop"
+        }
+      ]
+    },
+    {
+      "name": "Tree_Dry",
+      "parts": [
+        {
+          "model": "N19_Willow_Trunk",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N19_Willow_Trunk"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.2,
+            0
+          ],
+          "rotation": [
+            -15,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.9,
+            0.8
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.5,
+            0
+          ],
+          "rotation": [
+            -15,
+            130,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.9,
+            0.8
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.7999999999999998,
+            0
+          ],
+          "rotation": [
+            -15,
+            245,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.9,
+            0.8
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        }
+      ]
+    },
+    {
+      "name": "Tree_Autumn",
+      "parts": [
+        {
+          "model": "N02_Trunk",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N02_Trunk"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.3,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.9,
+            0.72
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            1,
+            0.44,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 1,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            0.6,
+            0.6,
+            -0.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.8,
+            0.7
+          ],
+          "parent": 1,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.65,
+            0
+          ],
+          "rotation": [
+            0,
+            95,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.9,
+            0.72
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            1,
+            0.44,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 4,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            0.6,
+            0.6,
+            -0.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.8,
+            0.7
+          ],
+          "parent": 4,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.3,
+            0
+          ],
+          "rotation": [
+            0,
+            185,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.9,
+            0.72
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            1,
+            0.44,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 7,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            0.6,
+            0.6,
+            -0.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.8,
+            0.7
+          ],
+          "parent": 7,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N20_Willow_Branch",
+          "position": [
+            0,
+            1.65,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            0.72,
+            0.9,
+            0.72
+          ],
+          "parent": -1,
+          "name": "N20_Willow_Branch"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            1,
+            0.44,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": 10,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            0.6,
+            0.6,
+            -0.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.7,
+            0.8,
+            0.7
+          ],
+          "parent": 10,
+          "name": "N22_Autumn_Cluster"
+        },
+        {
+          "model": "N22_Autumn_Cluster",
+          "position": [
+            0,
+            2.25,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.9,
+            1.1,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N22_Autumn_Cluster"
+        }
+      ]
+    },
+    {
+      "name": "Reed_Clump",
+      "parts": [
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            0.22,
+            0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.7,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        },
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            -0.162226617419074,
+            0,
+            0.1486018997212532
+          ],
+          "rotation": [
+            0,
+            137,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.85,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        },
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            0.019249776356678207,
+            0,
+            -0.21915621394388496
+          ],
+          "rotation": [
+            0,
+            274,
+            0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        },
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            0.13383728919709614,
+            0,
+            0.17460693004681357
+          ],
+          "rotation": [
+            0,
+            411,
+            0
+          ],
+          "scale": [
+            0.8,
+            1.15,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        },
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            -0.21663132827470793,
+            0,
+            -0.03835189186905552
+          ],
+          "rotation": [
+            0,
+            548,
+            0
+          ],
+          "scale": [
+            0.9,
+            0.7,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        },
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            0.18564787092114826,
+            0,
+            -0.11804604196009569
+          ],
+          "rotation": [
+            0,
+            685,
+            0
+          ],
+          "scale": [
+            1.0,
+            0.85,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        },
+        {
+          "model": "N23_Reed_Stem",
+          "position": [
+            -0.05715981836702591,
+            0,
+            0.21244471084084116
+          ],
+          "rotation": [
+            0,
+            822,
+            0
+          ],
+          "scale": [
+            0.8,
+            1.0,
+            0.9
+          ],
+          "parent": -1,
+          "name": "N23_Reed_Stem"
+        }
+      ]
+    },
+    {
+      "name": "Waterweed_Clump",
+      "parts": [
+        {
+          "model": "N24_Waterweed",
+          "position": [
+            0.18,
+            0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            0.65,
+            1
+          ],
+          "parent": -1,
+          "name": "N24_Waterweed"
+        },
+        {
+          "model": "N24_Waterweed",
+          "position": [
+            -0.13273086879742418,
+            0,
+            0.12158337249920717
+          ],
+          "rotation": [
+            0,
+            137,
+            0
+          ],
+          "scale": [
+            1,
+            0.72,
+            1
+          ],
+          "parent": -1,
+          "name": "N24_Waterweed"
+        },
+        {
+          "model": "N24_Waterweed",
+          "position": [
+            0.015749817019100353,
+            0,
+            -0.17930962959045132
+          ],
+          "rotation": [
+            0,
+            274,
+            0
+          ],
+          "scale": [
+            1,
+            0.79,
+            1
+          ],
+          "parent": -1,
+          "name": "N24_Waterweed"
+        },
+        {
+          "model": "N24_Waterweed",
+          "position": [
+            0.10950323661580594,
+            0,
+            0.14286021549284747
+          ],
+          "rotation": [
+            0,
+            411,
+            0
+          ],
+          "scale": [
+            1,
+            0.8600000000000001,
+            1
+          ],
+          "parent": -1,
+          "name": "N24_Waterweed"
+        },
+        {
+          "model": "N24_Waterweed",
+          "position": [
+            -0.17724381404294284,
+            0,
+            -0.03137882062013633
+          ],
+          "rotation": [
+            0,
+            548,
+            0
+          ],
+          "scale": [
+            1,
+            0.93,
+            1
+          ],
+          "parent": -1,
+          "name": "N24_Waterweed"
+        }
+      ]
+    },
+    {
+      "name": "Lily_Flowering",
+      "parts": [
+        {
+          "model": "N25_LilyPad",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N25_LilyPad"
+        },
+        {
+          "model": "N26_LilyFlower",
+          "position": [
+            -0.08,
+            0.02,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "N26_LilyFlower"
+        }
+      ]
+    },
+    {
+      "name": "Dragonfly_Decor",
+      "parts": [
+        {
+          "model": "I01_Dragonfly_Body",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Body"
+        },
+        {
+          "model": "I02_Dragonfly_Wing",
+          "position": [
+            0,
+            0.008,
+            -0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Wing_-1_0"
+        },
+        {
+          "model": "I02_Dragonfly_Wing",
+          "position": [
+            0,
+            0.008,
+            -0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Wing_1_0"
+        },
+        {
+          "model": "I02_Dragonfly_Wing",
+          "position": [
+            0,
+            0.008,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Wing_-1_1"
+        },
+        {
+          "model": "I02_Dragonfly_Wing",
+          "position": [
+            0,
+            0.008,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Wing_1_1"
+        }
+      ]
+    },
+    {
+      "name": "Butterfly_Decor",
+      "parts": [
+        {
+          "model": "I03_Butterfly_Body",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Body"
+        },
+        {
+          "model": "I04_Butterfly_Wing",
+          "position": [
+            0,
+            0.008,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            180
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Wing_-1_0"
+        },
+        {
+          "model": "I04_Butterfly_Wing",
+          "position": [
+            0,
+            0.008,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Wing_1_0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "modules": [
+    {
+      "name": "N17_Birch_Trunk",
+      "title_uk": "Березовий стовбур",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N18_Birch_Branch",
+      "title_uk": "Окрема розгалужена гілка берези",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N19_Willow_Trunk",
+      "title_uk": "Вигнутий стовбур верби",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N20_Willow_Branch",
+      "title_uk": "Розвилка верби",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N21_Willow_Droop",
+      "title_uk": "Окрема звисаюча група листя",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N22_Autumn_Cluster",
+      "title_uk": "Осіння група листя",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N23_Reed_Stem",
+      "title_uk": "Очерет: стебло з суцвіттям",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N24_Waterweed",
+      "title_uk": "Підводна рослина",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N25_LilyPad",
+      "title_uk": "Листок латаття",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N26_LilyFlower",
+      "title_uk": "Квітка латаття",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N27_Submerged_Wood",
+      "title_uk": "Підводний корч",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N28_Pebble_Bed",
+      "title_uk": "Група донних камінців",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N29_Meadow_Grass",
+      "title_uk": "Лучна трава",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "N30_Broadleaf_Plant",
+      "title_uk": "Широколиста трав’яна рослина",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "I01_Dragonfly_Body",
+      "title_uk": "Тіло декоративної бабки",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "I02_Dragonfly_Wing",
+      "title_uk": "Крило бабки",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "I03_Butterfly_Body",
+      "title_uk": "Тіло метелика",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "I04_Butterfly_Wing",
+      "title_uk": "Крило метелика",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

@@ -1,14 +1,19 @@
 using UnityEngine;
 
-public class MOVE : MonoBehaviour
+public class Move : MonoBehaviour
 {
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
     void Update()
     {
         transform.Translate(
-            0,      // X
-            0,      // Y
-            0.01f); // Z
-
-        transform.Rotate(0, 0, 1);
+            0,
+            0,
+            0.01f); 
     }
 }

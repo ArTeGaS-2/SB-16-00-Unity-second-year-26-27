@@ -1,0 +1,445 @@
+{
+  "units": "metres",
+  "up": "Unity Y",
+  "grid": 0.5,
+  "modules": [
+    {
+      "name": "A01_Wall_Solid_2m",
+      "title_uk": "Суцільна стіна 2 × 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          2,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A04_Wall_Window_2m",
+      "title_uk": "Стіна з вікном 1 × 1 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          2,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ],
+        "Shutter_Left": [
+          0.515,
+          0.52,
+          -0.2
+        ],
+        "Shutter_Right": [
+          1.485,
+          0.52,
+          -0.2
+        ]
+      }
+    },
+    {
+      "name": "A05_Wall_Door_2m",
+      "title_uk": "Стіна з дверним отвором 1 × 1,75 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          2,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ],
+        "Door_Hinge": [
+          0.53,
+          0.025,
+          -0.12
+        ]
+      }
+    },
+    {
+      "name": "A13_Roof_Slope_2m",
+      "title_uk": "Схил даху: прогін 2 м, підйом 1,4 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Ridge": [
+          2,
+          1.4,
+          0
+        ],
+        "Z_End": [
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "A18_Ruin_Wall_2m",
+      "title_uk": "Зруйнована стіна 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          2,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A02_Wall_Half_1m",
+      "title_uk": "Вузька стіна 1 × 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          1,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A03_Wall_Low_2m",
+      "title_uk": "Низька стіна 2 × 1 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          2,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A06_Wall_Corner",
+      "title_uk": "Кут стіни 1 × 1 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A07_Foundation_2m",
+      "title_uk": "Фундаментна плита 2 × 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "X_End": [
+          2,
+          0,
+          0
+        ],
+        "Z_End": [
+          0,
+          0,
+          2
+        ],
+        "Top": [
+          0,
+          0.25,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A08_Floor_Wood_2m",
+      "title_uk": "Дерев’яне перекриття 2 × 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "X_End": [
+          2,
+          0,
+          0
+        ],
+        "Z_End": [
+          0,
+          0,
+          2
+        ],
+        "Top": [
+          0,
+          0.2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A09_Column_Base",
+      "title_uk": "Основа колони 0,6 м",
+      "pivot_uk": "Низ по осі колони",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          0.25,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A10_Column_Shaft_2m",
+      "title_uk": "Гранований стовбур колони 2 м",
+      "pivot_uk": "Низ по осі колони",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A11_Column_Capital",
+      "title_uk": "Капітель колони 0,6 м",
+      "pivot_uk": "Низ по осі колони",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          0.25,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A12_Stone_Lintel_2m",
+      "title_uk": "Кам’яна перемичка 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          2,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A14_Roof_Ridge_2m",
+      "title_uk": "Коньок даху 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Z_End": [
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "A15_Gable_4m",
+      "title_uk": "Фронтон 4 × 1,4 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "End": [
+          4,
+          0,
+          0
+        ],
+        "Ridge": [
+          2,
+          1.4,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A16_Wood_Post_2m",
+      "title_uk": "Дерев’яна стійка 2 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ],
+        "Top": [
+          0,
+          2,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A17_Wood_Brace_1m",
+      "title_uk": "Діагональний підкіс 1 × 1 м",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A19_Ruin_Corner",
+      "title_uk": "Зруйнований кут",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A20_Column_Broken",
+      "title_uk": "Зламана колона",
+      "pivot_uk": "Низ по осі колони",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A21_Ruin_Arch_Half",
+      "title_uk": "Половина зруйнованої арки",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A22_Rubble_Cluster",
+      "title_uk": "Група кам’яних уламків",
+      "pivot_uk": "Низ ліворуч; модуль росте вздовж +X Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A23_Wood_Door",
+      "title_uk": "Окремі двері з точкою обертання на завісі",
+      "pivot_uk": "Низ біля завіси; обертання навколо Y Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "A24_Window_Shutter",
+      "title_uk": "Окрема віконниця з точкою обертання на завісі",
+      "pivot_uk": "Низ біля завіси; обертання навколо Y Unity",
+      "sockets_unity": {
+        "Start": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

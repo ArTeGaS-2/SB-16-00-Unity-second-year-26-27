@@ -1,0 +1,1254 @@
+{
+  "assemblies": [
+    {
+      "name": "River_Straight_4m",
+      "parts": [
+        {
+          "model": "W01_River_Straight_4m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W01_River_Straight_4m"
+        },
+        {
+          "model": "W10_River_Bank_4m",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1.0
+          ],
+          "parent": -1,
+          "name": "W10_River_Bank_4m"
+        },
+        {
+          "model": "W10_River_Bank_4m",
+          "position": [
+            -1,
+            0,
+            4
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1.0
+          ],
+          "parent": -1,
+          "name": "W10_River_Bank_4m"
+        }
+      ]
+    },
+    {
+      "name": "River_Straight_2m",
+      "parts": [
+        {
+          "model": "W02_River_Straight_2m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W02_River_Straight_2m"
+        },
+        {
+          "model": "W10_River_Bank_4m",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            0.5
+          ],
+          "parent": -1,
+          "name": "W10_River_Bank_4m"
+        },
+        {
+          "model": "W10_River_Bank_4m",
+          "position": [
+            -1,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            0.5
+          ],
+          "parent": -1,
+          "name": "W10_River_Bank_4m"
+        }
+      ]
+    },
+    {
+      "name": "River_Right90",
+      "parts": [
+        {
+          "model": "W03_River_Right90",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W03_River_Right90"
+        },
+        {
+          "model": "W11_River_Bank_Outer90",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W11_River_Bank_Outer90"
+        },
+        {
+          "model": "W12_River_Bank_Inner90",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W12_River_Bank_Inner90"
+        }
+      ]
+    },
+    {
+      "name": "River_Left90",
+      "parts": [
+        {
+          "model": "W04_River_Left90",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W04_River_Left90"
+        },
+        {
+          "model": "W11_River_Bank_Outer90",
+          "position": [
+            -2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W11_River_Bank_Outer90"
+        },
+        {
+          "model": "W12_River_Bank_Inner90",
+          "position": [
+            -2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W12_River_Bank_Inner90"
+        }
+      ]
+    },
+    {
+      "name": "River_Widen_2to4",
+      "parts": [
+        {
+          "model": "W05_River_Widen_2to4",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W05_River_Widen_2to4"
+        },
+        {
+          "model": "W17_Bank_Widen_Right",
+          "position": [
+            1,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W17_Bank_Widen_Right"
+        },
+        {
+          "model": "W18_Bank_Widen_Left",
+          "position": [
+            -1,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W18_Bank_Widen_Left"
+        }
+      ]
+    },
+    {
+      "name": "Lake_Flow",
+      "parts": [
+        {
+          "model": "W06_Lake_Center_4m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W06_Lake_Center_4m"
+        },
+        {
+          "model": "W09_Lake_Inlet_4m",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W09_Lake_Inlet_4m"
+        },
+        {
+          "model": "W15_Lake_Bank_Inlet",
+          "position": [
+            0,
+            0,
+            4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W15_Lake_Bank_Inlet"
+        },
+        {
+          "model": "W07_Lake_Edge_4m",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W07_Lake_Edge_4m"
+        },
+        {
+          "model": "W13_Lake_Bank_4m",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W13_Lake_Bank_4m"
+        },
+        {
+          "model": "W09_Lake_Inlet_4m",
+          "position": [
+            0,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W09_Lake_Inlet_4m"
+        },
+        {
+          "model": "W15_Lake_Bank_Inlet",
+          "position": [
+            0,
+            0,
+            -4
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W15_Lake_Bank_Inlet"
+        },
+        {
+          "model": "W07_Lake_Edge_4m",
+          "position": [
+            -2,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W07_Lake_Edge_4m"
+        },
+        {
+          "model": "W13_Lake_Bank_4m",
+          "position": [
+            -4,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W13_Lake_Bank_4m"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            -2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            -2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            -2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            -2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        }
+      ]
+    },
+    {
+      "name": "Lake_Closed",
+      "parts": [
+        {
+          "model": "W06_Lake_Center_4m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W06_Lake_Center_4m"
+        },
+        {
+          "model": "W07_Lake_Edge_4m",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W07_Lake_Edge_4m"
+        },
+        {
+          "model": "W13_Lake_Bank_4m",
+          "position": [
+            0,
+            0,
+            4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W13_Lake_Bank_4m"
+        },
+        {
+          "model": "W07_Lake_Edge_4m",
+          "position": [
+            2,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W07_Lake_Edge_4m"
+        },
+        {
+          "model": "W13_Lake_Bank_4m",
+          "position": [
+            4,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W13_Lake_Bank_4m"
+        },
+        {
+          "model": "W07_Lake_Edge_4m",
+          "position": [
+            0,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W07_Lake_Edge_4m"
+        },
+        {
+          "model": "W13_Lake_Bank_4m",
+          "position": [
+            0,
+            0,
+            -4
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W13_Lake_Bank_4m"
+        },
+        {
+          "model": "W07_Lake_Edge_4m",
+          "position": [
+            -2,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W07_Lake_Edge_4m"
+        },
+        {
+          "model": "W13_Lake_Bank_4m",
+          "position": [
+            -4,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W13_Lake_Bank_4m"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            -2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            -2,
+            0,
+            -2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        },
+        {
+          "model": "W08_Lake_Corner_R2",
+          "position": [
+            -2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W08_Lake_Corner_R2"
+        },
+        {
+          "model": "W14_Lake_Bank_Corner",
+          "position": [
+            -2,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            270,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W14_Lake_Bank_Corner"
+        }
+      ]
+    },
+    {
+      "name": "River_Source",
+      "parts": [
+        {
+          "model": "River_Straight_4m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Straight_4m"
+        },
+        {
+          "model": "W16_Rock_Cave_Mouth",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W16_Rock_Cave_Mouth"
+        }
+      ]
+    },
+    {
+      "name": "River_Sink",
+      "parts": [
+        {
+          "model": "River_Straight_2m",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Straight_2m"
+        },
+        {
+          "model": "W16_Rock_Cave_Mouth",
+          "position": [
+            0,
+            0,
+            2
+          ],
+          "rotation": [
+            0,
+            180,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "W16_Rock_Cave_Mouth"
+        }
+      ]
+    },
+    {
+      "name": "Water_Route",
+      "parts": [
+        {
+          "model": "River_Source",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Source"
+        },
+        {
+          "model": "River_Right90",
+          "position": [
+            0,
+            0,
+            4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Right90"
+        },
+        {
+          "model": "River_Straight_4m",
+          "position": [
+            2,
+            0,
+            6
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Straight_4m"
+        },
+        {
+          "model": "River_Left90",
+          "position": [
+            6,
+            0,
+            6
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Left90"
+        },
+        {
+          "model": "River_Straight_2m",
+          "position": [
+            8,
+            0,
+            8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Straight_2m"
+        },
+        {
+          "model": "Lake_Flow",
+          "position": [
+            8,
+            0,
+            14
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "Lake_Flow"
+        },
+        {
+          "model": "River_Sink",
+          "position": [
+            8,
+            0,
+            18
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "parent": -1,
+          "name": "River_Sink"
+        }
+      ]
+    }
+  ]
+}

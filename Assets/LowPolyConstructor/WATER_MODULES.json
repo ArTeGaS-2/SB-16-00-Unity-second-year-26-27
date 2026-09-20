@@ -1,0 +1,263 @@
+{
+  "modules": [
+    {
+      "name": "W01_River_Straight_4m",
+      "title_uk": "Пряма річка 4 м × 2 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ],
+        "Inlet": [
+          0,
+          0,
+          0
+        ],
+        "Outlet": [
+          0,
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "name": "W02_River_Straight_2m",
+      "title_uk": "Пряма річка 2 м × 2 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ],
+        "Inlet": [
+          0,
+          0,
+          0
+        ],
+        "Outlet": [
+          0,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "W03_River_Right90",
+      "title_uk": "Поворот річки праворуч 90°",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ],
+        "Inlet": [
+          0,
+          0,
+          0
+        ],
+        "Outlet": [
+          2,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "W04_River_Left90",
+      "title_uk": "Поворот річки ліворуч 90°",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ],
+        "Inlet": [
+          0,
+          0,
+          0
+        ],
+        "Outlet": [
+          -2,
+          0,
+          2
+        ]
+      }
+    },
+    {
+      "name": "W05_River_Widen_2to4",
+      "title_uk": "Розширення річки 2 → 4 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ],
+        "Inlet": [
+          0,
+          0,
+          0
+        ],
+        "Outlet": [
+          0,
+          0,
+          4
+        ]
+      }
+    },
+    {
+      "name": "W06_Lake_Center_4m",
+      "title_uk": "Центральна плитка озера 4 × 4 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W07_Lake_Edge_4m",
+      "title_uk": "Край озера 4 × 2 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W08_Lake_Corner_R2",
+      "title_uk": "Заокруглений кут озера R=2 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W09_Lake_Inlet_4m",
+      "title_uk": "Край озера зі входом річки 2 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W10_River_Bank_4m",
+      "title_uk": "Прямий берег річки 4 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W11_River_Bank_Outer90",
+      "title_uk": "Зовнішній берег повороту",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W12_River_Bank_Inner90",
+      "title_uk": "Внутрішній берег повороту",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W13_Lake_Bank_4m",
+      "title_uk": "Прямий берег озера 4 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W14_Lake_Bank_Corner",
+      "title_uk": "Заокруглений берег озера",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W15_Lake_Bank_Inlet",
+      "title_uk": "Берег із проміжком для річки",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W16_Rock_Cave_Mouth",
+      "title_uk": "Скельний грот для джерела або стоку",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W17_Bank_Widen_Right",
+      "title_uk": "Правий берег розширення 2 → 4 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W18_Bank_Widen_Left",
+      "title_uk": "Лівий берег розширення 2 → 4 м",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "W19_Demo_Basin",
+      "title_uk": "Демонстраційна земля з руслом і западиною озера",
+      "sockets_unity": {
+        "Origin": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

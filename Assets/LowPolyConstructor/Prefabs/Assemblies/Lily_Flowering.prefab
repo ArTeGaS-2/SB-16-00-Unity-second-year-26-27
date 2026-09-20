@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6405488410067137289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7792760828385779812}
+  m_Layer: 0
+  m_Name: Lily_Flowering
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7792760828385779812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6405488410067137289}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3820001033063136862}
+  - {fileID: 5948441966653395598}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &157879054451718750
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7792760828385779812}
+    m_Modifications:
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6626531140218335850, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+      propertyPath: m_Name
+      value: N26_LilyFlower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+--- !u!4 &5948441966653395598 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5818081558278924496, guid: aba42353159e0554786a10d98f8cd2b6, type: 3}
+  m_PrefabInstance: {fileID: 157879054451718750}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7608648706896992052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7792760828385779812}
+    m_Modifications:
+    - target: {fileID: 6332016752301355984, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_Name
+      value: N25_LilyPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+--- !u!4 &3820001033063136862 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6670964767199258986, guid: dd98b3f01d2cd7d4898ebfd4cc9ed1f6, type: 3}
+  m_PrefabInstance: {fileID: 7608648706896992052}
+  m_PrefabAsset: {fileID: 0}
