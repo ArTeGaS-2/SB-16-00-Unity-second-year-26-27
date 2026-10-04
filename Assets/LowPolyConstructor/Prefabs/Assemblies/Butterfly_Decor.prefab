@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2975676265055742923}
-  - component: {fileID: 2962804380030047985}
   m_Layer: 0
   m_Name: Butterfly_Decor
   m_TagString: Untagged
@@ -35,27 +34,6 @@ Transform:
   - {fileID: 3313824500983978662}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2962804380030047985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4505624677502764702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24bc8cf91adbf7047bb36c0cd2e443b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LowPolyConstructor.LPKDecorativeFlight
-  radius: 1.1
-  speed: 0.65
-  hoverHeight: 0.15
-  wingFrequency: 4
-  wingAngle: 55
-  seed: 1
-  wings:
-  - {fileID: 2236504598740473684}
-  - {fileID: 3313824500983978662}
 --- !u!1001 &4622311765566916657
 PrefabInstance:
   m_ObjectHideFlags: 0

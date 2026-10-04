@@ -55,5 +55,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00efb313a0fda714c974f3e703075d3b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5718099715079278990}
   m_SourcePrefab: {fileID: 100100000, guid: 00efb313a0fda714c974f3e703075d3b, type: 3}
+--- !u!1 &3472354190049796420 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 00efb313a0fda714c974f3e703075d3b, type: 3}
+  m_PrefabInstance: {fileID: 4391342157152967701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &5718099715079278990
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3472354190049796420}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5572786805886079678, guid: 00efb313a0fda714c974f3e703075d3b, type: 3}

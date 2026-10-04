@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     private Camera playerCamera;
+    private GravityGun gravityGun;
 
     private float horizontalInput;
     private float verticalInput;
@@ -43,6 +44,8 @@ public class PlayerController : MonoBehaviour
             Debug.LogError("Main Camera не знайдена! Перевір тег MainCamera.");
             return;
         }
+
+        gravityGun = playerCamera.GetComponentInParent<GravityGun>();
 
         // Забороняємо Rigidbody перевертати персонажа
         rb.freezeRotation = true;
@@ -84,6 +87,9 @@ public class PlayerController : MonoBehaviour
 
     void ReadMouseInput()
     {
+        if (gravityGun != null && gravityGun.IsRotatingHeldObject)
+            return;
+
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
@@ -174,4 +180,4 @@ public class PlayerController : MonoBehaviour
             transform.rotation *
             Quaternion.Euler(cameraPitch, 0f, 0f);
     }
-}
+}

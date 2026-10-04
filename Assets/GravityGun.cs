@@ -9,6 +9,12 @@ public class GravityGun : MonoBehaviour
     [Header("Захоплення")]
     [SerializeField] private float grabDistance = 10f;
     [SerializeField] private float holdDistance = 3f;
+    [SerializeField] private float minHoldDistance = 1f;
+    [SerializeField] private float maxHoldDistance = 8f;
+
+    [Header("Керування предметом")]
+    [SerializeField] private float scrollDistanceStep = 0.5f;
+    [SerializeField] private float rotationSensitivity = 0.2f;
 
     [Header("Утримання")]
     [SerializeField] private float pullSpeed = 12f;
@@ -19,14 +25,36 @@ public class GravityGun : MonoBehaviour
 
     private Rigidbody heldObject;
 
+    public bool IsRotatingHeldObject =>
+        heldObject != null &&
+        Mouse.current != null &&
+        Mouse.current.middleButton.isPressed;
+
     private bool originalUseGravity;
     private float originalLinearDamping;
     private float originalAngularDamping;
+    private Vector2 pendingRotation;
 
     private void Update()
     {
         if (Mouse.current == null)
             return;
+
+        if (heldObject != null)
+        {
+            float scroll = Mouse.current.scroll.ReadValue().y;
+            if (scroll != 0f)
+            {
+                holdDistance = Mathf.Clamp(
+                    holdDistance + Mathf.Sign(scroll) * scrollDistanceStep,
+                    minHoldDistance,
+                    maxHoldDistance
+                );
+            }
+
+            if (Mouse.current.middleButton.isPressed)
+                pendingRotation += Mouse.current.delta.ReadValue();
+        }
 
         // ЛКМ
         if (Mouse.current.leftButton.wasPressedThisFrame)
@@ -57,6 +85,21 @@ public class GravityGun : MonoBehaviour
             return;
 
         HoldObject();
+
+        if (pendingRotation != Vector2.zero)
+        {
+            Quaternion yaw = Quaternion.AngleAxis(
+                pendingRotation.x * rotationSensitivity,
+                playerCamera.transform.up
+            );
+            Quaternion pitch = Quaternion.AngleAxis(
+                -pendingRotation.y * rotationSensitivity,
+                playerCamera.transform.right
+            );
+
+            heldObject.MoveRotation(yaw * pitch * heldObject.rotation);
+            pendingRotation = Vector2.zero;
+        }
     }
 
     private void TryGrabObject()

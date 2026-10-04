@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8004765051490019217}
-  - component: {fileID: 2611530394140171339}
   m_Layer: 0
   m_Name: Dragonfly_Decor
   m_TagString: Untagged
@@ -37,29 +36,6 @@ Transform:
   - {fileID: 2730709481924456814}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2611530394140171339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 979772691576914338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24bc8cf91adbf7047bb36c0cd2e443b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LowPolyConstructor.LPKDecorativeFlight
-  radius: 1.7
-  speed: 1.1
-  hoverHeight: 0.15
-  wingFrequency: 17
-  wingAngle: 18
-  seed: 1
-  wings:
-  - {fileID: 3169228398220586478}
-  - {fileID: 3991754375296657543}
-  - {fileID: 864894826961889659}
-  - {fileID: 2730709481924456814}
 --- !u!1001 &748624602909129122
 PrefabInstance:
   m_ObjectHideFlags: 0
